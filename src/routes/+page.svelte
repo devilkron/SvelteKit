@@ -18,17 +18,27 @@
 			</picture>
 		</span>
 
-		to your new<br />SvelteKit app
 	</h1>
 
-	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
-	</h2>
+	<div class="flex flex-row">
+			<div class="font-bold">ชื่อ - นามสกุล:</div>
+			<div class="text-sky-500">นายฉลองราช ภูครองนาค</div>
+	</div>
 
-	<Counter />
+	<div class="flex flex-row">
+		<div class="font-bold">Facebook: </div>
+		<div class="text-sky-500 hover:text-purple-500"><a target="_blank" href="https://www.facebook.com/CP.KornEiEi40/">Chalongrach Phukhongnak</a></div>
+	</div>
+	<div class="flex flex-row">
+		<div class="font-bold">Instagram: </div>
+		<div class="text-sky-500"><a href="/">kkorn_ii</a></div>
+	</div>
+	
+
+	<!-- <Counter /> -->
 </section>
 
-<style>
+<!-- <style>
 	section {
 		display: flex;
 		flex-direction: column;
@@ -56,4 +66,4 @@
 		top: 0;
 		display: block;
 	}
-</style>
+</style> -->
